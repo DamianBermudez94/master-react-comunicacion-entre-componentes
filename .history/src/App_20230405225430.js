@@ -30,11 +30,7 @@ function App() {
           ficha={ficha_medica}
         
         />
-        <SegundoComponente
-          nombre="Damián"
-          apellidos="Bermúdez"
-          ficha={ficha_medica}
-        />
+        <SegundoComponente/>
       </header>
     </div>
   );

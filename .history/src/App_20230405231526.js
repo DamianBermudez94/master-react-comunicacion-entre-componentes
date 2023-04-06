@@ -33,7 +33,11 @@ function App() {
         <SegundoComponente
           nombre="Damián"
           apellidos="Bermúdez"
-          ficha={ficha_medica}
+          ficha={ficha_medica.map((person)=>{
+              <li key={person.id}>
+                <span>{person.altura}</span>
+              </li>
+          })}
         />
       </header>
     </div>

@@ -5,8 +5,8 @@ import SegundoComponente from './SegundoComponente';
 function App() {
 
   const ficha_medica = {
-      altura:"165cm",
-      peso:"70kilos",
+      nombre:"Damian",
+      apellidos:"Bermudez",
       estado:"Bueno"
   }
   return (
@@ -30,11 +30,7 @@ function App() {
           ficha={ficha_medica}
         
         />
-        <SegundoComponente
-          nombre="Damián"
-          apellidos="Bermúdez"
-          ficha={ficha_medica}
-        />
+        <SegundoComponente/>
       </header>
     </div>
   );

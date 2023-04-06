@@ -1,14 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import PrimerComponente from './PrimerComponente';
-import SegundoComponente from './SegundoComponente';
 function App() {
-
-  const ficha_medica = {
-      altura:"165cm",
-      peso:"70kilos",
-      estado:"Bueno"
-  }
   return (
     <div className="App">
       <header className="App-header">
@@ -24,17 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <PrimerComponente
-          nombre="Damian"
-          apellidos="Bermudez"
-          ficha={ficha_medica}
-        
-        />
-        <SegundoComponente
-          nombre="Damián"
-          apellidos="Bermúdez"
-          ficha={ficha_medica}
-        />
+        <PrimerComponente/>
       </header>
     </div>
   );

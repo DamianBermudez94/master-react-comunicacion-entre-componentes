@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import PrimerComponente from './PrimerComponente';
-import SegundoComponente from './SegundoComponente';
 function App() {
 
   const ficha_medica = {
-      altura:"165cm",
-      peso:"70kilos",
+      nombre:"Damian",
+      apellidos:"Bermudez",
       estado:"Bueno"
   }
   return (
@@ -29,11 +28,6 @@ function App() {
           apellidos="Bermudez"
           ficha={ficha_medica}
         
-        />
-        <SegundoComponente
-          nombre="Damián"
-          apellidos="Bermúdez"
-          ficha={ficha_medica}
         />
       </header>
     </div>
